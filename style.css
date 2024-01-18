@@ -1,0 +1,49 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* Global variables */
+
+:root {
+  --color-primary-400: hsl(75, 94%, 57%);
+  --color-neutral-100: hsl(0, 0%, 100%);
+  --color-neutral-700: hsl(0, 0%, 20%);
+  --color-neutral-800: hsl(0, 0%, 12%);
+  --color-neutral-900: hsl(0, 0%, 8%);
+
+  --font-face-default: "Inter", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+
+  --font-size-body: 0.875rem;
+  --font-size-heading: 1.5rem;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: var(--font-face-default);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-body);
+  color: var(--color-neutral-100);
+  background-color: var(--color-neutral-900);
+}

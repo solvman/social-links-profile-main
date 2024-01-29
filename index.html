@@ -14,26 +14,27 @@
   </head>
   <body>
     <main>
-      <div class="card">
-        <div class="profile">
+      <h1 class="visually-hidden">Profile card project</h1>
+      <article class="card">
+        <session class="profile">
           <img
             src="./assets/images/avatar-jessica.jpeg"
             alt="avatar"
-            class="profile__img"
+            class="profile__img" aria-hidden="true"
           />
-          <h1 class="profile__name">Jessica Randall</h1>
+          <h2 class="profile__name">Jessica Randall</h2>
           <p class="profile__location">London, United Kingdom</p>
           <p class="profile__description">
             "Front-end developer and avid reader."
           </p>
         </div>
-        <div class="socials">
+        <nav class="socials">
           <button class="button">GitHub</button>
           <button class="button">Frontend Mentor</button>
           <button class="button">LinkedIn</button>
           <button class="button">Twitter</button>
           <button class="button">Instagram</button>
-        </div>
+        </nav>
       </div>
     </main>
   </body>
